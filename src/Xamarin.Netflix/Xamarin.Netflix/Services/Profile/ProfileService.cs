@@ -8,10 +8,10 @@ namespace Xamarin.Netflix.Services.Profile
         {
             return new ObservableCollection<Models.Profile>
             {
-                new Models.Profile { Name = "jsuarezruiz", Picture = "profile1.png", ProfileType = Models.ProfileType.Profile },
-                new Models.Profile { Name = "mon & dad", Picture = "profile2.png", ProfileType = Models.ProfileType.Profile },
-                new Models.Profile { Name = "office", Picture = "profile3.png", ProfileType = Models.ProfileType.Profile },
-                new Models.Profile { Name = "other", Picture = "profile4.png", ProfileType = Models.ProfileType.Profile },
+                new Models.Profile { Name = "Sam", Picture = "profile1.png", ProfileType = Models.ProfileType.Profile },
+                new Models.Profile { Name = "Some", Picture = "profile2.png", ProfileType = Models.ProfileType.Profile },
+                new Models.Profile { Name = "Other", Picture = "profile3.png", ProfileType = Models.ProfileType.Profile },
+                new Models.Profile { Name = "Dude", Picture = "profile4.png", ProfileType = Models.ProfileType.Profile },
                 new Models.Profile { Name = "Add profile", Picture = "add.png", ProfileType = Models.ProfileType.NewProfile },
                 new Models.Profile { ProfileType = Models.ProfileType.None }
             };

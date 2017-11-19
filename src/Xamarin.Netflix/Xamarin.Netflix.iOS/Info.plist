@@ -50,5 +50,9 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>Netflix</string>
+	<key>UIStatusBarHidden</key>
+	<true/>
 </dict>
 </plist>

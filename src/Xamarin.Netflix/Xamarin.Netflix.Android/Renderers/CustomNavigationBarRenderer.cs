@@ -9,6 +9,7 @@ using AView = Android.Views.View;
 using Xamarin.Netflix.Droid.Renderers;
 using Android.Util;
 using Xamarin.Netflix.Views;
+using Android.Content;
 
 [assembly: ExportRenderer(typeof(TranspatentNavigationPage), typeof(CustomNavigationBarRenderer))]
 namespace Xamarin.Netflix.Droid.Renderers
@@ -16,6 +17,11 @@ namespace Xamarin.Netflix.Droid.Renderers
     public class CustomNavigationBarRenderer : NavigationPageRenderer
     {
         private AToolbar _toolbar;
+
+        public CustomNavigationBarRenderer(Context context):base(context)
+        {
+
+        }
 
         protected override void OnElementChanged(ElementChangedEventArgs<NavigationPage> e)
         {

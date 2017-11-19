@@ -14,7 +14,7 @@ namespace Xamarin.Netflix.Droid
         Icon = "@drawable/icon",
         Theme = "@style/MyTheme",
         MainLauncher = true,
-        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+        ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation, Immersive = true)]
     public class MainActivity : Forms.Platform.Android.FormsAppCompatActivity
     {
         protected override void OnCreate(Bundle bundle)

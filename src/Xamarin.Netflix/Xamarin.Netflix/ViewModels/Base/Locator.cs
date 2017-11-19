@@ -1,10 +1,11 @@
-﻿using Microsoft.Practices.Unity;
-using System;
+﻿using System;
 using Xamarin.Netflix.Services.Movies;
 using Xamarin.Netflix.Services.Navigation;
 using Xamarin.Netflix.Services.Profile;
 using Xamarin.Netflix.Services.TVShows;
 using Xamarin.Netflix.Services.Watching;
+using CommonServiceLocator;
+using Unity;
 
 namespace Xamarin.Netflix.ViewModels.Base
 {
