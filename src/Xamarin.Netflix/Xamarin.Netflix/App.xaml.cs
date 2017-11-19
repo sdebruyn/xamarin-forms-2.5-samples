@@ -3,7 +3,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Netflix.Services.Navigation;
 using Xamarin.Netflix.ViewModels.Base;
+using Xamarin.Forms.Xaml;
 
+[assembly:XamlCompilation(XamlCompilationOptions.Compile)]
 namespace Xamarin.Netflix
 {
     public partial class App : Application

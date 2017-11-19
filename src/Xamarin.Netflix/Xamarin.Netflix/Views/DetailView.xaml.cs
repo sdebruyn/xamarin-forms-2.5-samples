@@ -3,6 +3,7 @@ using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 using Xamarin.Netflix.ViewModels.Base;
+using FFImageLoading.Forms;
 
 namespace Xamarin.Netflix.Views
 {

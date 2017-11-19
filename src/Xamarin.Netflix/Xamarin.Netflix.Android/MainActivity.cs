@@ -24,6 +24,7 @@ namespace Xamarin.Netflix.Droid
 
             base.OnCreate(bundle);
 
+            Forms.Forms.SetFlags("FastRenderers_Experimental");
             CachedImageRenderer.Init();
             Forms.Forms.Init(this, bundle);
             LoadApplication(new App());
