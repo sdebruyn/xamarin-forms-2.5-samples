@@ -20,7 +20,7 @@
                 TargetType="Label">
 
                 <Setter Property="TextColor"
-                    Value="{StaticResource WhiteColor}" />
+                    Value="#FFFFFF" />
 
                 <Setter Property="FontSize"
                     Value="10" />
